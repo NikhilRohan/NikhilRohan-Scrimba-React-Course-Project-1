@@ -1,0 +1,24 @@
+.mainClass {
+  color: #ffffff;
+  padding: 57px 27px;
+  font-family: "Inter", sans-serif;
+}
+.mainClass h1 {
+  font-weight: 700;
+  font-size: 39.06px;
+  line-height: 47px;
+  letter-spacing: -0.05rem;
+}
+.mainClass ul {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  height: 190px;
+}
+.mainClass li {
+  padding-block: 10px;
+}
+.mainClass li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
