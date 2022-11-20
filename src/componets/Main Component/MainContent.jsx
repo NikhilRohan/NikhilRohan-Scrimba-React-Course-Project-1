@@ -1,8 +1,8 @@
 import "/src/componets/Main Component/MainContent.css";
 
-const MainContent = () => {
+const MainContent = (props) => {
   return (
-    <main class="mainClass">
+    <main className={`mainClass${props.isDarkMode ? " dark" : ""}`}>
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>

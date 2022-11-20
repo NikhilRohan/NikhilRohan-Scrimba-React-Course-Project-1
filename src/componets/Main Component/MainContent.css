@@ -1,7 +1,10 @@
 .mainClass {
-  color: #ffffff;
+  color: #2b283a;
   padding: 57px 27px;
   font-family: "Inter", sans-serif;
+}
+.dark.mainClass {
+  color: #ffffff;
 }
 .mainClass h1 {
   font-weight: 700;
